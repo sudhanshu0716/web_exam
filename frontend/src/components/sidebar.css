@@ -1,0 +1,27 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: black; /* Changed rgb(0, 0, 0) to black */
+  border-right: 1px solid lightgray; /* Changed #ccc to lightgray */
+  padding-top: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sidebar-item:hover {
+  background-color: darkgray; /* Changed #313131 to darkgray */
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+}

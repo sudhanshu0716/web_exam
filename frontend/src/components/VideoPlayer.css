@@ -1,0 +1,104 @@
+/* General Button Styling */
+button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effects */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Active Effects */
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled Button Styling */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Like Button Styling */
+button.like {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+button.like:hover {
+  background-color: #388e3c; /* Darker Green */
+}
+
+button.like:active {
+  background-color: #2e7d32; /* Even Darker Green */
+}
+
+/* Dislike Button Styling */
+button.dislike {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+button.dislike:hover {
+  background-color: #d32f2f; /* Darker Red */
+}
+
+button.dislike:active {
+  background-color: #c62828; /* Even Darker Red */
+}
+
+/* Subscribe Button Styling */
+button.subscribe {
+  background-color: #2196f3; /* Blue */
+  color: white;
+}
+
+button.subscribe:hover {
+  background-color: #1976d2; /* Darker Blue */
+}
+
+button.subscribe:active {
+  background-color: #1565c0; /* Even Darker Blue */
+}
+
+/* Share and Download Button Styling */
+button.share,
+button.download {
+  background-color: #ff9800; /* Orange */
+  color: white;
+}
+
+button.share:hover,
+button.download:hover {
+  background-color: #fb8c00; /* Darker Orange */
+}
+
+button.share:active,
+button.download:active {
+  background-color: #f57c00; 
+}
+
+/* Add a cool glow effect on hover */
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Adding icons inline to the buttons */
+button i {
+  margin-right: 8px;
+}
